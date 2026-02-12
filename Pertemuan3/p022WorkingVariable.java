@@ -10,4 +10,9 @@ public class p022WorkingVariable {
     }
 
 }
+/*
+Naufrisya Rizqy Syabilla
+D1041241081
+Kamis, 12 Februari 2025
+ */
 
