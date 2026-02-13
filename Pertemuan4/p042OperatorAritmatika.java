@@ -1,4 +1,4 @@
-package Pertemuan3;
+package Pertemuan4;
 
 public class p042OperatorAritmatika {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Pertemuan3;
+package Pertemuan4;
 
 public class p041NamingConvention {
 
@@ -13,7 +13,7 @@ public class p041NamingConvention {
         System.out.println("Umur: " + studentAge);
         System.out.println("Status: " + isActive);
         System.out.println("Konstanta PI: " + PI);
-        
+
     }
   
 }
