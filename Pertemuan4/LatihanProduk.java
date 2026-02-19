@@ -22,4 +22,8 @@ public class LatihanProduk {
         System.out.println("Pajak (11%): Rp " + (int)pajak);
     }
 }
-
+/*
+Naufrisya Rizqy Syabilla
+D1041241081
+Kamis, 19 Februari 2026
+*/

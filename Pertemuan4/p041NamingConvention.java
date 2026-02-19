@@ -21,5 +21,5 @@ public class p041NamingConvention {
 /*
 Naufrisya Rizqy Syabilla
 D1041241081
-Jumat, 13 Februari 2025
+Jumat, 13 Februari 2026
  */

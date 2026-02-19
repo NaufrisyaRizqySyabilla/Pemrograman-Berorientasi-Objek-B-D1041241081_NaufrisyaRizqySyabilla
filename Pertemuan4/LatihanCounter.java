@@ -26,4 +26,8 @@ public class LatihanCounter {
         System.out.println("Setelah *= 2: " + counter);
     }
 }
-
+/*
+Naufrisya Rizqy Syabilla
+D1041241081
+Kamis, 19 Februari 2026
+*/
