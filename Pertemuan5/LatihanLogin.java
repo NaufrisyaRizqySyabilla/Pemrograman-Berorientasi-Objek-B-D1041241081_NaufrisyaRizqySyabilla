@@ -16,7 +16,7 @@ public class LatihanLogin {
 
             if (inputPassword.equals("admin123")) {
                 System.out.println("Password benar");
-                System.out.println("LOGIN BERHASIL");
+                System.out.println("LOGIN BERHASIL!");
                 System.out.println("Selamat datang, " + inputUsername);
             } else {
                 System.out.println("Password salah");
