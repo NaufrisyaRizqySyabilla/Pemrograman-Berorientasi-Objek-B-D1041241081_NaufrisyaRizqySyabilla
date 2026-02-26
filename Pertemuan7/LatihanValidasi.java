@@ -15,7 +15,7 @@ public class LatihanValidasi {
             if (nilai < 0 || nilai > 100) {
                 System.out.println("Error: Nilai harus antara 0-100!");
             } else {
-                System.out.println("✓ Nilai valid: " + nilai);
+                System.out.println("Nilai valid: " + nilai);
             }
 
             i++;
