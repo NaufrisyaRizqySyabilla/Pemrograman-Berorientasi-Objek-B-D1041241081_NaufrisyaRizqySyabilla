@@ -5,12 +5,7 @@ public class Mobil {
     String merk;
     String warna;
     int tahun;
-    int kecepatan = 0;
-
-    void percepat() {
-        kecepatan += 20;
-        System.out.println("Mobil dipercepat...");
-    }
+    int kecepatan;
 
     void tampilkanSpesifikasi() {
         System.out.println("=== SPESIFIKASI MOBIL ===");
@@ -18,6 +13,11 @@ public class Mobil {
         System.out.println("Warna: " + warna);
         System.out.println("Tahun: " + tahun);
         System.out.println();
+    }
+
+    void percepat() {
+        kecepatan += 20;
+        System.out.println("Mobil dipercepat...");
     }
 
     void tampilkanKecepatan() {
