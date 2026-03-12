@@ -1,41 +1,39 @@
-public class LatihanPersegiConstructor {
+class Persegi {
+
     int sisi;
     int luas;
     int keliling;
-    boolean error = false;
 
-    LatihanPersegiConstructor(int sisi) {
+    Persegi(int sisi) {
         if (sisi <= 0) {
+            System.out.println("ERROR: Sisi tidak boleh <= 0. Diset ke default (1).");
             this.sisi = 1;
-            error = true;
         } else {
             this.sisi = sisi;
         }
 
-        luas = this.sisi * this.sisi;
-        keliling = 4 * this.sisi;
+        this.luas = this.sisi * this.sisi;
+        this.keliling = 4 * this.sisi;
     }
 
     void tampilkanHasil() {
-
-        if (error) {
-            System.out.println("ERROR: Sisi tidak boleh <= 0. Diset ke default (1).");
-        }
-
         System.out.println("=== PERSEGI ===");
         System.out.println("Sisi     : " + sisi + " cm");
         System.out.println("Luas     : " + luas + " cm²");
         System.out.println("Keliling : " + keliling + " cm");
         System.out.println();
     }
+}
+
+public class LatihanPersegiConstructor {
 
     public static void main(String[] args) {
 
-        LatihanPersegiConstructor p1 = new LatihanPersegiConstructor(5);
-        LatihanPersegiConstructor p2 = new LatihanPersegiConstructor(-3);
+        Persegi persegi1 = new Persegi(5);
+        persegi1.tampilkanHasil();
 
-        p1.tampilkanHasil();
-        p2.tampilkanHasil();
+        Persegi persegi2 = new Persegi(-3);
+        persegi2.tampilkanHasil();
     }
 }
 
