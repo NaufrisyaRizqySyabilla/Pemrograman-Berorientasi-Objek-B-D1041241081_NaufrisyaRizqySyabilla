@@ -1,13 +1,12 @@
 package Pertemuan9;
 
-public class Mobil {
-
+class MobilData{
     String merk;
     String warna;
     int tahun;
     int kecepatan;
 
-    void tampilkanSpesifikasi() {
+    public void tampilkanSpesifikasi(){
         System.out.println("=== SPESIFIKASI MOBIL ===");
         System.out.println("Merk : " + merk);
         System.out.println("Warna: " + warna);
@@ -15,19 +14,20 @@ public class Mobil {
         System.out.println();
     }
 
-    void percepat() {
-        kecepatan += 20;
+    public void percepat(){
+        kecepatan = kecepatan + 20;
         System.out.println("Mobil dipercepat...");
     }
 
-    void tampilkanKecepatan() {
+    public void tampilkanKecepatan(){
         System.out.println("Kecepatan saat ini: " + kecepatan + " km/jam");
     }
+}
 
+public class Mobil {
     public static void main(String[] args) {
 
-        Mobil mobil1 = new Mobil();
-
+        MobilData mobil1 = new MobilData();
         mobil1.merk = "Toyota Avanza";
         mobil1.warna = "Silver";
         mobil1.tahun = 2020;
@@ -38,9 +38,3 @@ public class Mobil {
         mobil1.tampilkanKecepatan();
     }
 }
-
-/*
-Naufrisya Rizqy Syabilla
-D1041241081
-senin, 9 Maret 2026
-*/
