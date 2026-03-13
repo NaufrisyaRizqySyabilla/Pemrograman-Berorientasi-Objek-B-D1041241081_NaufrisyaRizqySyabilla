@@ -1,6 +1,6 @@
 package Pertemuan9;
 
-class MobilData{
+class Mobil{
     String merk;
     String warna;
     int tahun;
