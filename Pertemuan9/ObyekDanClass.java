@@ -31,3 +31,8 @@ public class ObyekDanClass {
         obj.tampilkanInfo();
     }
 }
+/*
+Naufrisya Rizqy Syabilla
+D1041241081
+senin, 9 Maret 2026
+*/

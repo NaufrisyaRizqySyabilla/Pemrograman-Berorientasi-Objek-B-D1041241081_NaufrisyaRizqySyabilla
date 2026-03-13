@@ -38,3 +38,8 @@ public class Mobil {
         mobil1.tampilkanKecepatan();
     }
 }
+/*
+Naufrisya Rizqy Syabilla
+D1041241081
+senin, 9 Maret 2026
+*/
